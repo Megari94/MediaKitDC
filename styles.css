@@ -134,10 +134,10 @@
   @keyframes scrolldown{0%{transform:scaleY(0); transform-origin:top;} 50%{transform:scaleY(1); transform-origin:top;} 51%{transform-origin:bottom;} 100%{transform:scaleY(0); transform-origin:bottom;}}
 
   /* ---------- Ecosistema (quienes somos) ---------- */
-  .eco-grid{margin-top:56px; display:grid; grid-template-columns:repeat(6,1fr); gap:1px; background:var(--line-dark); border:1px solid var(--line-dark);}
+  .eco-grid{margin-top:56px; display:grid; grid-template-columns:repeat(7,1fr); gap:1px; background:var(--line-dark); border:1px solid var(--line-dark);}
   .eco-item{
     background:#fff; padding:26px 14px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;
-    transition:background .3s;
+    text-decoration:none; transition:background .3s;
   }
   .eco-item:hover{background:var(--gris-claro);}
   .eco-item svg{width:26px; height:26px; stroke:var(--negro);}
