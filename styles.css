@@ -1,3 +1,4 @@
+  /* Diseño y desarrollo: Marianela Holsbach */
   :root{
     --rojo:#BC0101;
     --rojo-dark:#8A0000;
@@ -375,3 +376,4 @@
   @media (max-width:380px){
     .topbar .logo-wrap img{height:22px;}
   }
+  /* Marianela Holsbach */

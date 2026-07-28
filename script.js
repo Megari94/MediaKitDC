@@ -1,3 +1,6 @@
+  // Diseño y desarrollo: Marianela Holsbach
+  console.log('%cDiario Chaco — Media Kit\n%cDiseño y desarrollo: Marianela Holsbach', 'font-weight:bold;font-size:13px;', 'color:#BC0101;font-weight:bold;');
+
   // Reveal on scroll
   const revealEls = document.querySelectorAll('.reveal');
   const io = new IntersectionObserver((entries)=>{
@@ -55,3 +58,5 @@
       document.getElementById(tab.dataset.target).classList.add('active');
     });
   });
+
+  // Marianela Holsbach
